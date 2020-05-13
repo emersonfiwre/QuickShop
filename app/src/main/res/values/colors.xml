@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#00c9af</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimarytext">#212121</color>
+    <color name="colorSecondText">#999</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="grey">#ddd</color>
+    <color name="darkgrey">#8e8f93</color>
+    <color name="just_black">#494848</color>
+    <color name="darkblue">#303F9F</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="light_blue_A700">#0091ea</color>
+    <color name="blue_A700">#4d69ff</color>
+    <color name="green_300">#42bd41</color>
+    <color name="splash_screen">#2f8deb</color>
+    <color name="darkGreen">#388E3C</color>
+    <color name="darkBlueGrey">#455A64</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#95d4fa</color>
+    <color name="lwhite">#9effffff</color>
+    <color name="lblack">#a0000000</color>
+    <color name="green">#02e90e</color>
+    <color name="chillblue">#4A708B</color>
+    <color name="red">#ea4545</color>
+    <color name="lred">#f48686</color>
+
+    <color name="darkred">#f52411</color>
+    <color name="blue_800">#3b50ce</color>
+    <color name="slide_button">#66000000</color>
+    <color name="blue_900">#2a36b1</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="light_blue_700">#0288d1</color>
+    <color name="light_blue_500">#03a9f4</color>
+
+    <!-- Material DEFAULT colors -->
+    <color name="material_drawer_primary">#2196F3</color>
+    <color name="material_drawer_primary_dark">#1976D2</color>
+    <color name="material_drawer_primary_light">#BBDEFB</color>
+    <color name="material_drawer_selected_text">#2196F3</color>
+
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    -->
+
+
+</resources>

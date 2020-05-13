@@ -1,0 +1,103 @@
+<resources>
+
+    <string name="app_label">Quick Shop</string>
+    <!-- Strings all used screen -->
+    <!--string name="app_name">Carrinho Inteligente</string-->
+    <string name="app_name">Quick Shop</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterprise_title">Silent Systems</string>
+    <string name="toolbar_title">Quick Shop</string>
+    <string name="toolbar_all_prods">Todos os produtos!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lbl_ok">OK</string>
+    <string name="message_onBack">Precione novamente para sair</string>
+    <string name="lbl_localization">Localização</string>
+    <string name="lbl_cancelar">Cancelar</string>
+    <string name="type_value"> R$ </string>
+    <string name="title_add_prod_list">Adicionar produto a lista</string>
+    <string name="lbl_scanning_qr">Escanear Código QR</string>
+
+
+    <!-- Strings Login screen -->
+    <!--Labels-->
+    <string name="lbl_entrar">Entrar</string>
+
+    <!-- Strings actMain screen -->
+    <!--Labels-->
+    <string name="list_produtos">Lista de Produtos</string>
+    <string name="valor_total">Valor Total: </string>
+    <string name="final_compra">Finalizar Compra</string>
+    <string name="button_buying">Processando pagamento...</string>
+
+    <!-- Strings actFinalizado screen -->
+    <!--Labels-->
+    <string name="tvParabens">Parabéns pela compra, volte sempre!</string>
+    <string name="titleParabens">Parabéns pelas compras!</string>
+    <string name="backBuy">Volte a comprar</string>
+    <string name="message_deseja_realmente_adicionar">Você deseja realmente adicionar este produto:</string>
+    <string name="lbl_sim_desejo_add">Adicionar a lista</string>
+    <string name="sucess_add_prod">Produto adicionado com sucesso</string>
+    <string name="lbl_caixa">Apresente o código abaixo no caixa para efetuar o pagamento.</string>
+    <string name="lbl_thanks_bottom">
+        A Silent Systems agradece !
+        \n
+        Volte sempre!
+        </string>
+
+    <!-- NavigationDrawer -->
+    <string name="drawer_item_discount">Produtos em promoção!</string>
+    <string name="drawer_item_all">Todos os produtos</string>
+    <string name="drawer_item_my_list">Minha Lista!</string>
+    <string name="drawer_item_alimetos">Alimentos</string>
+    <string name="drawer_item_bebidas">Bebidas</string>
+    <string name="drawer_item_carnes">Carnes</string>
+    <string name="drawer_item_padaria">Padaria e Frios</string>
+    <string name="drawer_item_frutas">Frutas, verduras e legumes</string>
+    <string name="drawer_item_higiene">Higiene</string>
+    <string name="drawer_item_limpeza">Limpeza</string>
+
+    <string name="drawer_item_selection">Genêros</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+
+
+    <!-- SearchView-->
+    <string name="search_hint">Buscar produtos</string>
+    <string name="action_searchable_activity">Buscar produtos</string>
+
+
+    <!-- Adapter -->
+
+    <!--Introduction-->
+    <string name="check_error">É necessário concordar com os termos de uso para prosseguir</string>
+    <string name="Welcome">Bem-vindo ao QuickShop</string>
+    <string name="Security">Segurança e confidencialidade</string>
+    <string name="Enjoy">Aproveite suas compras!</string>
+    <string name="Welcometxt">
+        O QuickShop é o aplicativo feito para você
+            consumidor que procura realizar compras rápidas.
+            Com poucos cliques no QuickShop você pode realizar sem enfrentar filas </string>
+
+    <string name="Securitytxt">Seus dados ficaram protegidos em nossa base de dados
+            e serão utilizados apenas para análises de vendas</string>
+
+    <string name="Enjoytxt">
+        Para iniciar você deve aceitar os termos de condições,
+        não se preocupe não iremos pegar nenhuma informação sua. </string>
+
+    <string name="termsConditions">
+        A Texto Editores respeita a privacidade individual e valoriza a confiança dos seus utilizadores, clientes e parceiros. Como tal, estamos empenhados em proteger a informação pessoal que venha a partilhar connosco. Esta página descreve como fazemos uso dessa informação.
+        Recepção de dados
+        Ao ceder-nos a sua informação pessoal, voluntariamente, ela apenas será acedida pelos nossos serviços. É considerado informação pessoal tudo o que possa ser usado para identificar um utilizador como, por exemplo, nome, endereço electrónico, título, data de nascimento, género, profissão, interesses pessoais ou demais dados necessários para que possamos prestar o serviço solicitado ou até melhorar o funcionamento do Site. Não registamos automaticamente informação pessoal, incluindo o seu endereço de IP. O registo dos endereços de IP que consultam o Site servem apenas para efeito de análise estatística de tráfego. Os dados fornecidos não serão transferidos para terceiros sem o seu consentimento prévio, mas podem ser usados dentro da editora ou por outra empresa actuando como agente da editora para fins de processamento ou correio.
+        Actualização da informação
+        Se, a qualquer momento, desejar interromper a recepção de e-mails ou outras comunicações connosco, ou se tiver enviado informação pessoal identificável através do nosso Site e gostaria que essa informação fosse apagada dos registos, é favor notificar-nos para webmaster@leya.com. A correcção ou mudança dos seus dados também é possível.
+        Ligações a Sites de terceiros
+        Por cortesia aos nossos visitantes, o nosso Site contém ligações para alguns Sites de terceiros, os quais, a nosso ver, podem conter informações úteis. A Política de Privacidade aqui apresentada não se aplica a estes Sites, por isso, aconselhamos vivamente a consulta da Política de Privacidade dos mesmos.
+        Outros
+        O material disposto neste Site, em texto e imagem, é propriedade da editora ou de terceiros; a sua utilização é feita com a devida autorização dos seus autores. A utilização não autorizada constitui um crime punível por lei. Se tiver dúvidas ou alguma questão sobre a forma como gerimos a informação, por favor envie-nos um e-mail para webmaster@leya.com. Este endereço também é reservado à comunicação de factos que possam, de uma maneira ou outra, infringir alguma das normas explícitas nesta política, bem como comprometer a segurança do Site e o seu normal funcionamento.
+        Actualizações
+        Quaisquer mudanças realizadas na Política de Privacidade deste Site serão descriminadas nesta página e podem ser efectuadas a qualquer momento. Se a alteração for substancial e tiver implicações na forma como usamos os seus dados, será informado através de uma aviso na página de entrada do Site.
+    </string>
+
+
+</resources>

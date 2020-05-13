@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActLogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Desenvolvido por Silent Systems."
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="145dp"
+        android:background="@color/black"
+        android:src="@drawable/shopping"
+        />
+
+    <LinearLayout
+        android:id="@+id/formlogin"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/light_blue_A700"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingTop="21dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Digite seu CPF abaixo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <br.com.sapereaude.maskedEditText.MaskedEditText
+                android:id="@+id/edt_cpf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                android:hint="00000000000"
+                android:inputType="phone"
+                android:padding="1dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/lwhite"
+                android:textSize="32dp"
+                android:typeface="monospace"
+                fancy:keep_hint="true"
+                mask:allowed_chars="1234567890"
+                mask:mask="###.###.###-##" />
+
+            <com.rilixtech.materialfancybutton.MaterialFancyButton
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="Login"
+                fancy:mfb_defaultColor="@color/white"
+                fancy:mfb_focusColor="@color/lwhite"
+                fancy:mfb_icon="Entrar"
+                fancy:mfb_iconFont="fontawesome.ttf"
+                fancy:mfb_iconPosition="right"
+                fancy:mfb_radius="85dp"
+                fancy:mfb_text="@string/lbl_entrar"
+                fancy:mfb_textColor="@color/blue_A700"
+                fancy:mfb_textFont="robotothin.ttf"
+                fancy:mfb_textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
